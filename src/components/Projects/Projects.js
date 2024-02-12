@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import planets from "../../Assets/Projects/planets.png";
 import robot from "../../Assets/Projects/robot.png";
 import data_integration from "../../Assets/Projects/data_integration.png";
+import singasong from "../../Assets/Projects/singasong.png";
 import nlp from "../../Assets/Projects/nlp.png";
 import plate from "../../Assets/Projects/plate.png";
 import diabetes from "../../Assets/Projects/diabetes.png";
