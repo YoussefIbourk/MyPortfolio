@@ -23,6 +23,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={singasong}
+              isBlog={false}
+              title={
+                <span style={{ color: '#623686', fontWeight: 'bold' }}>
+                  Melody to Symphony: Music Generation from Humming <br></br> ____________________________
+                
+                </span>
+              }
+              description="Development of an innovative AI-driven music generation system for my MSc dissertation, employing deep learning techniques and Recurrent Neural Networks. The system accurately transcribes hummed melodies and creates coherent music, showcased through a webserver-based application. This project not only bolstered my expertise in AI, machine learning, and deep learning but also contributed to the field of AI-driven creative applications."
+              ghLink="https://github.com/YoussefIbourk/MsC-THESIS"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={nlp}
